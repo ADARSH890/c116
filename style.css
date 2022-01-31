@@ -1,0 +1,28 @@
+body{
+    background-size:cover ;
+    background-position: center;
+}
+h1{
+    font-size:30px !important;
+}
+.btn-success{
+    font-size:20px;
+    margin-top:40px ;
+}
+.btn-success:hover{
+background-color: goldenrod;
+}
+canvas{
+    animation-name:adarsh;
+
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes adarsh{
+    0%{box-shadow:3px 3px 40px darkred;}
+    25%{box-shadow:3px 3px 40px yellowgreen;}
+    50%{box-shadow:3px 3px 40px goldenrod;}
+    75%{box-shadow:3px 3px 40px red;}
+    100%{box-shadow:3px 3px 40px blueviolet;
+    }
+}
